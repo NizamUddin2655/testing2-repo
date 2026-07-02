@@ -8,3 +8,22 @@ h1{
 body{
     background-color: gray;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini{
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+
+}
+
+.mini:hover{
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
